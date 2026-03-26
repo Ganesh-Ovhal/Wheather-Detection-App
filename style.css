@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(315deg,rgba(251,36,255,0.4),rgb(35,255,156,0.9));
+    color: black;
+}
+
+.container{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg,rgba(500,434,232,2.5),rgb(233,300,50));
+    border-radius: 30px;
+
+}
+.container:hover{
+    border: 1.5px solid red;
+}
+
+.first-layer{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.Enter{
+    height: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    background-color: #e6f2ff;
+    color: #003366;
+    outline: none;
+}
+.Enter:hover{
+    border: 2px solid red;
+}
+.button-one{
+    width: 30px;
+    border-radius: 50%;
+    background-color: #3399ff;
+    color: white;
+    border: none;
+}
+.button-one:hover{
+    border: 2px solid red;
+}
+
+.Content-one{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+    
+
+.Temp{
+    font-size: 4rem;
+    color: #56c523;
+    text-align: center;
+}
+.Cloudy{
+    font-size: 2rem;
+    color: rgb(20, 98, 69);
+    text-align: center;
+}
+.London{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content-two{
+    height: 150px;
+    width: 300px;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-part{
+    justify-content: center;
+}
+
+.Percentage{
+    font-size: 2rem;
+}
+.Humidity{
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+}
+
+.right-part{
+    justify-content: center;
+}
+
+.kilo-meter{
+    font-size: 2rem;
+}
+.Wind-Speed{
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: center;
+}
